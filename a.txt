@@ -1,0 +1,70 @@
+Vou passar para você a hierarquia dos arquivos que eu tenho em meu projeto.
+Raiz
+⤷ .expo (diretório)
+⤷ assets (diretório)
+⤷ node_modules (diretório) 
+⤷ src (diretório)
+    ⤷ app (diretório)
+        ⤷ Details (diretório)
+            ⤷ [type] (diretório) 
+                ⤷ [id].tsx 
+            ⤷ styles.ts
+        ⤷ screens (diretório) 
+            ⤷ Home.tsx
+            ⤷ styles.ts 
+        ⤷ index.tsx
+        ⤷ Movies.tsx
+        ⤷ Series.tsx 
+        ⤷ styles.ts 
+    ⤷ components (diretório) 
+        ⤷ Header (diretório) 
+            ⤷ index.tsx 
+            ⤷ styles.ts 
+        ⤷ HorizontalList (diretório) 
+            ⤷ index.tsx 
+            ⤷ styles.ts 
+        ⤷ ListMovie (diretório) 
+            ⤷ index.tsx 
+        ⤷ ListSeries (diretório) 
+            ⤷ index.tsx 
+        ⤷ sections (diretório) 
+            ⤷ Vazio 
+    ⤷ services (diretório)
+        ⤷ themoviedb.service.ts 
+    ⤷ types (diretório)
+        ⤷ type.d.ts 
+⤷ .gitignore 
+⤷ App.json 
+⤷ App.tsx 
+⤷ index.ts 
+⤷ package-lock.json 
+⤷ package.json
+⤷ tsconfig.json
+    
+src/
+├── app/                     # Rotas com Expo Router
+│   ├── Details/
+│   │   └── [type]/[id].tsx
+│   │   └── styles.ts
+│   ├── screens/
+│   │   ├── Home.tsx
+│   │   ├── Movies.tsx
+│   │   ├── Series.tsx
+│   │   └── styles.ts
+│   ├── index.tsx
+│   └── styles.ts
+├── components/
+│   ├── Header/
+│   ├── HorizontalList/
+│   ├── ListMovie/
+│   ├── ListSeries/
+│   └── Cards.tsx              
+│       
+├── services/
+│   └── themoviedb.service.ts
+├── types/
+│   └── type.d.ts
+├── constants/
+│   └── theme.ts
+├── styles/
+│   └── global.ts               
